@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIFTASTIC App</title>
+
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/bf9baf5ef7abfdc1d90942e3df4d9594.png">
+    <!-- BG pic -->
+    <style>
+        body {
+            background-image: url('assets/images/pexels-photo-544268 (1).jpeg');
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Title Row -->
+        <div class="row align-items-center">
+            <div class="title col-lg-12 text-lg-left text-md-center text-sm-center text-center">
+                <a href="index.html">
+                    <h1>THE GIF EMPORIUM</h1>
+                </a>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-7 button">
+                <!-- Empty div to display the buttons -->
+                <div id="topicButtons"></div>
+            </div>
+            <!-- Search Section -->
+            <div class="search col-lg-4 text-right sticky-top m-2">
+                <div class="row">
+
+                    <div class="searchy"></div>
+                    <input class="input float-right col-lg-8 m-1" type="text" id="topic-input"
+                        placeholder="Search for GIFs...">
+
+                    <input class="submit float-right col-lg-3" type="submit" value="Submit" id="addTopic">
+
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mt-2 mx-auto">
+                        <select class="form-control" id="numGifs">
+                            <option>5</option>
+                            <option selected="selected">10</option>
+                            <option>15</option>
+                            <option>20</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-sm col-lg-12">
+            <!-- Empty div to display gifs -->
+            <div id="topics-container"> </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="assets/javscript/app.js"></script>
+
+</body>
+
+</html>
