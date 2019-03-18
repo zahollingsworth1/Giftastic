@@ -47,7 +47,7 @@ a:hover{
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #92730e 0%, #e73e0f 51%, #665b39 100%);
+    background-image: linear-gradient(to right, #80FF00 0%, #e73e0f 51%, #66FFFF 100%);
     outline: none;
     width: 187px;
     display: inline-grid;
