@@ -1,0 +1,68 @@
+.gifs {
+	display: inline-grid;
+	margin: 15px;
+}
+a{
+    color: #33ccff
+}
+a:hover{
+    color: #66ff33
+}
+.button{
+    border: 9px dotted #05D61B;
+    border-radius: 25px 26px 25px 26px;
+    padding: 1%;
+}
+.searchy{
+    padding-top: 3%;
+}
+.submit{
+    border-radius: 25px 26px 25px 26px;
+}
+.input{
+    border-radius: 25px 26px 25px 26px;
+}
+.clear{
+    text-align:center;
+}
+.gifRate{
+    color: white;
+}
+#addTopic{
+    padding: 2%;
+    margin-right:1%
+}
+#topic-input{
+    padding: 2%;
+}
+
+  .gif-btn {
+    flex: 1 1 auto;
+    margin: 7px;
+    padding: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #80FF00 0%, #e73e0f 51%, #66FFFF 100%);
+    outline: none;
+    width: 187px;
+    display: inline-grid;
+    cursor: pointer;
+   }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .gif-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .gif-btn:active{
+    outline: none;
+    border: none;
+  }
+ 
