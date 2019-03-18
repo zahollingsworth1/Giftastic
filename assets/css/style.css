@@ -35,16 +35,7 @@ a:hover{
 #topic-input{
     padding: 2%;
 }
-.topicButtons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 80vw;
-    margin: 0 auto;
-    min-height: 100vh;
-  }
+
   .gif-btn {
     flex: 1 1 auto;
     margin: 7px;
@@ -60,6 +51,7 @@ a:hover{
     outline: none;
     width: 187px;
     display: inline-grid;
+    cursor: pointer;
    }
   
   /* Demo Stuff End -> */
