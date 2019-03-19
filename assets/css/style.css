@@ -1,3 +1,4 @@
+
 .gifs {
 	display: inline-grid;
 	margin: 15px;
@@ -54,12 +55,9 @@ a:hover{
     cursor: pointer;
    }
   
-  /* Demo Stuff End -> */
-  
-  /* <- Magic Stuff Start */
   
   .gif-btn:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
   }
   .gif-btn:active{
     outline: none;
